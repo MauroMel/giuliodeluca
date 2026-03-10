@@ -542,10 +542,10 @@ export default function App() {
       {/* --- HERO SECTION --- */}
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-            <img 
+          <img 
             src={giulioHeroImage}
             alt="Giulio De Luca" 
-            className="w-full h-full object-cover opacity-40 scale-105"
+            className="w-full h-full object-cover object-left md:object-center opacity-40 scale-105"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-piano-black/20 via-transparent to-piano-black"></div>
@@ -818,7 +818,7 @@ export default function App() {
                     <Mail size={20} />
                   </div>
                   <div>
-                    <h4 className="text-xs uppercase tracking-widest text-gold mb-1">General Inquiries</h4>
+                    <h4 className="text-xs uppercase tracking-widest text-gold mb-1">Email</h4>
                     <p className="text-xl font-serif">giulio.deluca@tiscali.it</p>
                   </div>
                 </div>
