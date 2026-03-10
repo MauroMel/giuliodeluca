@@ -884,13 +884,7 @@ export default function App() {
             <p className="text-[10px] uppercase tracking-[0.3em] text-ivory/40">
               © {new Date().getFullYear()} All Rights Reserved.
             </p>
-          </div>
-          
-          <div className="flex space-x-8">
-            <a href="#" className="text-[10px] uppercase tracking-widest text-ivory/60 hover:text-gold transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[10px] uppercase tracking-widest text-ivory/60 hover:text-gold transition-colors">Terms of Service</a>
-          </div>
-
+          </div>         
           <div className="text-[10px] uppercase tracking-[0.3em] text-ivory/40">
             Designed by <span className="text-gold">-</span> Mauro Melella
           </div>
