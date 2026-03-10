@@ -17,6 +17,9 @@ import {
   Globe
 } from 'lucide-react';
 import curriculumDocx from '../documents/GiulioDeLuca_Curriculum_breve.docx';
+import cd01Cover from '../img/CD01.jpg';
+import cd02Cover from '../img/CD02.jpg';
+import cd03Cover from '../img/CD03.jpg';
 
 // --- Types & Constants ---
 
@@ -103,7 +106,7 @@ const DISCOGRAPHY: Album[] = [
     title: "Franz Liszt: Trascrizioni e parafrasi sulle opere di Verdi",
     year: "2013",
     label: "Tactus Records",
-    cover: "./img/CD01.jpg",
+    cover: cd01Cover,
     description: "Complete edition of Liszt's transcriptions and paraphrases on Verdi's operas, performed on a historical Steinway.",
     subtitle: {
       IT: "Tactus Records • Edizione integrale dedicata a Verdi",
@@ -136,7 +139,7 @@ const DISCOGRAPHY: Album[] = [
     title: "Liszt: Italia, sogno d'amore",
     year: "2011",
     label: "Tactus Records",
-    cover: "./img/CD02.jpg",
+    cover: cd02Cover,
     description: "A collection of Liszt's vocal works dedicated to Italy, with mezzosoprano Chiarastella Onorati.",
     subtitle: {
       IT: "Tactus Records • Liriche e pagine vocali dedicate all'Italia",
@@ -165,7 +168,7 @@ const DISCOGRAPHY: Album[] = [
     title: "Formaldeide",
     year: "2007",
     label: "Vincenzo Ramaglia",
-    cover: "./img/CD03.jpg",
+    cover: cd03Cover,
     description: "Contemporary chamber music by Roman composer Vincenzo Ramaglia, first world recording.",
     subtitle: {
       IT: "Vincenzo Ramaglia • Musica da camera contemporanea",
