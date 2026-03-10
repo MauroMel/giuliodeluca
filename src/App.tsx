@@ -20,6 +20,8 @@ import curriculumDocx from '../documents/GiulioDeLuca_Curriculum_breve.docx';
 import cd01Cover from '../img/CD01.jpg';
 import cd02Cover from '../img/CD02.jpg';
 import cd03Cover from '../img/CD03.jpg';
+import giulioHeroImage from '../img/giulio01.png';
+import giulioPortraitImage from '../img/giulio02.jpg';
 
 // --- Types & Constants ---
 
@@ -540,8 +542,8 @@ export default function App() {
       {/* --- HERO SECTION --- */}
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="./img/Giulio01.png" 
+            <img 
+            src={giulioHeroImage}
             alt="Giulio De Luca" 
             className="w-full h-full object-cover opacity-40 scale-105"
             referrerPolicy="no-referrer"
@@ -588,7 +590,7 @@ export default function App() {
             >
               <div className="aspect-[3/4] overflow-hidden rounded-sm shadow-2xl">
                 <img 
-                  src="./img/giulio02.jpg" 
+                  src={giulioPortraitImage}
                   alt="Portrait" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                   referrerPolicy="no-referrer"
